@@ -5,8 +5,8 @@ fi
 
 brew install thefuck
 
-> ~/.config/fastfetch/config.jsonc
 fastfetch --gen-config
+> ~/.config/fastfetch/config.jsonc
 mkdir ~/.config/fastfetch/ASCII
 curl https://raw.githubusercontent.com/RaphaelIniesta/my_terminal_config/refs/heads/main/config.jsonc >> ~/.config/fastfetch/config.jsonc
 curl https://raw.githubusercontent.com/RaphaelIniesta/my_terminal_config/refs/heads/main/ASCII/aiq.txt >> ~/.config/fastfetch/ASCII/aiq.txt
