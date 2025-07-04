@@ -14,6 +14,7 @@ curl https://raw.githubusercontent.com/RaphaelIniesta/my_terminal_config/refs/he
 echo "Created ASCII art"
 curl https://raw.githubusercontent.com/RaphaelIniesta/my_terminal_config/refs/heads/main/config.jsonc >> ~/.config/fastfetch/config.jsonc
 echo "Write new config.jsonc"
-clear && fastfetch
+
+
 
 "clear && fastfetch" >> ~/.zshrc
